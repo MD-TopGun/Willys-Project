@@ -4,9 +4,12 @@ Feature: Selecting a product category
   I want to be able to select a product category
 
   Scenario: Willys category for example kykling
-    When I select a category
+    Given In the menu section
+    When I select plus sign of a category
     Then I should see items within that category
 
-  Scenario: Test
-    When I select a category
+
+  Scenario: Willys category for example kykling
+    Given In the menu section
+    When I select plus sign of a category
     Then I should see items within that category
