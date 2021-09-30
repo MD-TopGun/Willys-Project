@@ -1,0 +1,53 @@
+[
+  {
+    "description": "  As a customer\n  In order to look out more for special category\n  I want to be able to select a product category",
+    "elements": [
+      {
+        "id": "selecting-a-product-category;willys-category-for-example-kykling",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Willys category for example kykling",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select a category",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see items within that category",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1359631600
+            },
+            "hidden": true,
+            "match": {
+              "location": "Class\\Cucumber\\selenium-cucumber-Willys\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:244"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "selecting-a-product-category",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Selecting a product category",
+    "tags": [],
+    "uri": "C:/Users/mahsa/OneDrive/Documents/Mehrdad/Teknik Testare/03 - C# Programming/Thomas Class/Cucumber/selenium-cucumber-Willys/features/Product Category.feature"
+  }
+]
