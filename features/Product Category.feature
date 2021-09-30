@@ -7,3 +7,6 @@ Feature: Selecting a product category
     When I select a category
     Then I should see items within that category
 
+  Scenario: Test
+    When I select a category
+    Then I should see items within that category
