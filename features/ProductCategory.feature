@@ -1,7 +1,7 @@
 Feature: Selecting a product category
   As a customer
-  In order to look out more for special category
-  I want to be able to select a product category
+  I want to be able to go to different categories of goods
+  so that I can see which goods are included in a category (e.g. Bird, Tofu, etc.).
 
   Scenario: Categories and subcategories
     Given In the menu section
