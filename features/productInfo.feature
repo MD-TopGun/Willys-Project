@@ -16,3 +16,5 @@ Feature: Get more information
     And I enter "Skaldjur & Havsdelikatesser"
     And I click on "Hummer Amerikansk/kokt Fryst"
     Then should get information about the product
+
+
