@@ -11,15 +11,15 @@ module.exports = function () {
         // Navigate to a URL (http://www.willys.se)
         await helpers.loadPage('http://www.willys.se');
 
-        // Google asks you to cahnge or confirm search cookie settings
-        // They do this with buttons with css class .jyfHyd
+        // Willys asks you to cahnge or confirm search cookie settings
+        // They do this with buttons with css class .onetrust-accept-btn-handler
         // so grab these two elements, the second one is the Accept button
         let changeAndConfirmButtons = await driver.findElements(by.css('.onetrust-accept-btn-handler'));
         let confirmButton = changeAndConfirmButtons[1];
         // Click the Accept button
         await confirmButton.click();
 
-        // Get the search input field
+        // Get the Menu First
         let searchInput = await driver.findElement(by.css('input[name="q"]'));
         // Send our search query as key strokes to it and then press enter
         await searchInput.sendKeys(searchQuery, selenium.Key.ENTER);
