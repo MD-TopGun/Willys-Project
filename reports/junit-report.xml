@@ -1,15 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="selecting-a-product-category;willys-category-for-example-kykling" tests="2" failures="0" skipped="2">
+    <testsuite name="selecting-a-product-category;willys-category-for-example-kykling" tests="3" failures="0" skipped="3">
         <properties>
-            <property name="URI" value="C:/Users/mahsa/OneDrive/Documents/Mehrdad/Teknik Testare/03 - C# Programming/Thomas Class/Cucumber/selenium-cucumber-Willys/features/Product Category.feature">
+            <property name="URI" value="C:/TTk20G/progForTestare/Willys-Project/features/ProductCategory.feature">
             </property>
         </properties>
-        <testcase name="When I select a category" classname="selecting-a-product-category;willys-category-for-example-kykling">
+        <testcase name="Given In the menu section" classname="selecting-a-product-category;willys-category-for-example-kykling">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select plus sign of a category" classname="selecting-a-product-category;willys-category-for-example-kykling">
             <skipped message="">
             </skipped>
         </testcase>
         <testcase name="Then I should see items within that category" classname="selecting-a-product-category;willys-category-for-example-kykling">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="selecting-a-product-category;willys-category-for-example-kykling" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/TTk20G/progForTestare/Willys-Project/features/ProductCategory.feature">
+            </property>
+        </properties>
+        <testcase name="Given In the menu section" classname="selecting-a-product-category;willys-category-for-example-kykling">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select plus sign of a category" classname="selecting-a-product-category;willys-category-for-example-kykling">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should see items within that category" classname="selecting-a-product-category;willys-category-for-example-kykling">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-more-information;get-product-information-by-&quot;click&quot;" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/TTk20G/progForTestare/Willys-Project/features/productInfo.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://willys.se&quot;" classname="get-more-information;get-product-information-by-&quot;click&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I enter &quot;fisk &amp; skaldjur&quot; In categories" classname="get-more-information;get-product-information-by-&quot;click&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;Skaldjur &amp; Havsdelikatesser&quot;" classname="get-more-information;get-product-information-by-&quot;click&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on &quot;Hummer Amerikansk/kokt Fryst&quot;" classname="get-more-information;get-product-information-by-&quot;click&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then should get information about the product" classname="get-more-information;get-product-information-by-&quot;click&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-more-information;get-product-information-by-&quot;enter&quot;" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/TTk20G/progForTestare/Willys-Project/features/productInfo.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://willys.se&quot;" classname="get-more-information;get-product-information-by-&quot;enter&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I enter &quot;fisk &amp; skaldjur&quot; In categories" classname="get-more-information;get-product-information-by-&quot;enter&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;Skaldjur &amp; Havsdelikatesser&quot;" classname="get-more-information;get-product-information-by-&quot;enter&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on &quot;Hummer Amerikansk/kokt Fryst&quot;" classname="get-more-information;get-product-information-by-&quot;enter&quot;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then should get information about the product" classname="get-more-information;get-product-information-by-&quot;enter&quot;">
             <skipped message="">
             </skipped>
         </testcase>

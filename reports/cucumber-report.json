@@ -10,12 +10,21 @@
         "steps": [
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "I select a category",
+            "keyword": "Given ",
+            "name": "In the menu section",
             "result": {
               "status": "undefined"
             },
             "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select plus sign of a category",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
           },
           {
             "arguments": [],
@@ -24,18 +33,67 @@
             "result": {
               "status": "undefined"
             },
-            "line": 8
+            "line": 9
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1359631600
+              "duration": 1860141800
             },
             "hidden": true,
             "match": {
-              "location": "Class\\Cucumber\\selenium-cucumber-Willys\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:244"
+              "location": "C:\\TTk20G\\progForTestare\\Willys-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:244"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "selecting-a-product-category;willys-category-for-example-kykling",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Willys category for example kykling",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "In the menu section",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select plus sign of a category",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see items within that category",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1393259000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\TTk20G\\progForTestare\\Willys-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:244"
             }
           }
         ],
@@ -48,6 +106,151 @@
     "line": 1,
     "name": "Selecting a product category",
     "tags": [],
-    "uri": "C:/Users/mahsa/OneDrive/Documents/Mehrdad/Teknik Testare/03 - C# Programming/Thomas Class/Cucumber/selenium-cucumber-Willys/features/Product Category.feature"
+    "uri": "C:/TTk20G/progForTestare/Willys-Project/features/ProductCategory.feature"
+  },
+  {
+    "description": "  In order to interest customers\n  User should be able to see more\n  about a product by clicking on it",
+    "elements": [
+      {
+        "id": "get-more-information;get-product-information-by-\"click\"",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Get product information by \"click\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://willys.se\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"fisk & skaldjur\" In categories",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter \"Skaldjur & Havsdelikatesser\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"Hummer Amerikansk/kokt Fryst\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "should get information about the product",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1271136500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\TTk20G\\progForTestare\\Willys-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:244"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-more-information;get-product-information-by-\"enter\"",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Get product information by \"Enter\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://willys.se\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"fisk & skaldjur\" In categories",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter \"Skaldjur & Havsdelikatesser\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"Hummer Amerikansk/kokt Fryst\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "should get information about the product",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1336679500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\TTk20G\\progForTestare\\Willys-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:244"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-more-information",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Get more information",
+    "tags": [],
+    "uri": "C:/TTk20G/progForTestare/Willys-Project/features/productInfo.feature"
   }
 ]

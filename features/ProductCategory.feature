@@ -13,3 +13,5 @@ Feature: Selecting a product category
     Given In the menu section
     When I select plus sign of a category
     Then I should see items within that category
+
+
