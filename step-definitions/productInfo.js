@@ -1,4 +1,4 @@
-/ Encapsulate all your step definition in a module exports like below
+// Encapsulate all your step definition in a module exports like below
 module.exports = function () {
 
   this.When(/^that I am on  "([^"]*)"$/, async function (category) {
