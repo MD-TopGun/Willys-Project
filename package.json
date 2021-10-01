@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "updated-selenium-cucumber-js": "^1.8.3-rc3"
+    "updated-selenium-cucumber-js": "^1.8.3-rc4"
   }
 }
