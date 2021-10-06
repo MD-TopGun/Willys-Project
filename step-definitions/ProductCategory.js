@@ -1,37 +1,49 @@
-// Encapsulate all your step definition in a module exports like below
+
+
 module.exports = function () {
 
-    // Match a step definition against a line in Gherkin/the feature file
-    // this.Given or this.When or this.Then + a regular expression
-    // /^ = Start of regular expression
-    // $/ = End of regular expression
-    // "([^"]*)" = match anything inside quotation marks and also
-    // pick it up the text inside the quotation as a parameter for test function
-    this.When(/^I select a category "([^"]*)"$/, async function (searchQuery) {
-        // Navigate to a URL (http://www.willys.se)
-        await helpers.loadPage('http://www.willys.se');
+    this.Given(/^In the menu section of "([^"]*)"$/, async function (url) {
+        // Navigate to a URL (https://www.willys.se)
+        await helpers.loadPage(url);
+        await driver.sleep(3000);
+    });
+    this.Given(/^I have selected the accept button$/, async function () {
+        //await driver.wait(until.elementsLocated(by.css('#onetrust-accept-btn-handler')), 10000)
 
-        // Willys asks you to cahnge or confirm search cookie settings
-        // They do this with buttons with css class .onetrust-accept-btn-handler
-        // so grab these two elements, the second one is the Accept button
-        let changeAndConfirmButtons = await driver.findElements(by.css('.onetrust-accept-btn-handler'));
-        let confirmButton = changeAndConfirmButtons[1];
+        let acceptit = await driver.findElement(By.css('#onetrust-accept-btn-handler'));
+        //let confirmButton = acceptit[1];
+        while (!(await acceptit.isDisplayed())) {
+            await driver.sleep(100);
+        }
+
+        await acceptit.click();
         // Click the Accept button
-        await confirmButton.click();
 
-        // Get the Menu First
-        let searchInput = await driver.findElement(by.css('input[name="q"]'));
-        // Send our search query as key strokes to it and then press enter
-        await searchInput.sendKeys(searchQuery, selenium.Key.ENTER);
     });
 
-    // See previous description of how to write a step definition function
-    this.Then(/^I should see some results$/, async function () {
+    this.When(/^I select a category$/, async function () {
+        //await driver.wait(until.elementsLocated(by.css('#onetrust-accept-btn-handler')), 10000)
+        await driver.sleep(5000);
+
+        let buttons = await driver.findElements(By.css('div.navigation-title'));
+        let loadmorebutton;
+        for (let button of buttons) {
+            let textofbutton = await button.getText();
+            if (textofbutton === 'href="/sortiment/frukt-och-gront"') {
+                loadmorebutton = button;
+            }
+            break;
+        }
+        await loadmorebutton.click();
+
+
+    });
+
+
+    this.Then(/^I should see items within that category$/, async function () {
         await driver.wait(until.elementsLocated(by.css('div.g')), 10000);
         let elements = await driver.findElements(by.css('div.g'));
-        // Note that we use expect syntax from Chai.js
-        // https://www.chaijs.com/
+
         expect(elements.length).to.not.equal(0);
     });
-
-};
+}

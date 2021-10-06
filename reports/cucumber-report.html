@@ -279,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Thu Sep 30 2021 17:05:07 GMT+0200 (Central European Summer Time)</div>
+      <div class="generated-on">Sun Oct 03 2021 14:44:32 GMT+0200 (Central European Summer Time)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -303,7 +303,7 @@ pre {
                     <a data-toggle="collapse" href="#collapseFeatureselenium_cucumber_example_await0">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
-                        <b>Feature:</b>Selecting a product category
+                        <b>Feature:</b>Remove an item in the shopping cart
                         <span class="label-container">
               
               
@@ -318,7 +318,7 @@ pre {
             <div id="collapseFeatureselenium_cucumber_example_await0" class="panel-collapse collapse">
                 <div class="panel-body">
                     
-                    <div class="description">  As a customer<br/>  In order to look out more for special category<br/>  I want to be able to select a product category</div>
+                    <div class="description">  In order to regret buying an item in the shopping cart,<br/>  the user wants the ability to remove that item.</div>
                     
                     
                     <div class="panel panel-default">
@@ -336,7 +336,7 @@ pre {
                                         <div style="padding-right: 10px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>Willys category for example kykling
+                                            <b>Scenario:</b>Remove an item with the quantity of 1.
                                         </div>
                                         <div>
                             <span class="label-container">
@@ -368,7 +368,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Given </span>
-                          <span> In the menu section</span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
                             
                           
                               <span class="step-duration">
@@ -382,7 +382,93 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^In the menu section$/, function(callback) {
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In one of the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In one of the items$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -411,7 +497,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> I select plus sign of a category</span>
+                          <span> I click on &quot;-&quot;  button</span>
                             
                           
                               <span class="step-duration">
@@ -425,7 +511,7 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^I select plus sign of a category$/, function(callback) {
+<br>Then(/^I click on "([^"]*)"  button$/, function(arg1, callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -454,7 +540,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> I should see items within that category</span>
+                          <span> the item should be removed.</span>
                             
                           
                               <span class="step-duration">
@@ -468,7 +554,7 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^I should see items within that category$/, function(callback) {
+<br>Then(/^the item should be removed.$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -507,7 +593,7 @@ pre {
                                         <div style="padding-right: 10px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>Willys category for example kykling
+                                            <b>Scenario:</b>Remove an item with the quantity of 2.
                                         </div>
                                         <div>
                             <span class="label-container">
@@ -539,7 +625,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Given </span>
-                          <span> In the menu section</span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
                             
                           
                               <span class="step-duration">
@@ -553,7 +639,93 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^In the menu section$/, function(callback) {
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In one of the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In one of the items$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -582,7 +754,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> I select plus sign of a category</span>
+                          <span> I click on &quot;-&quot; button 2 times</span>
                             
                           
                               <span class="step-duration">
@@ -596,7 +768,7 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^I select plus sign of a category$/, function(callback) {
+<br>Then(/^I click on "([^"]*)" button 2 times$/, function(arg1, callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -625,7 +797,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> I should see items within that category</span>
+                          <span> the item should be removed.</span>
                             
                           
                               <span class="step-duration">
@@ -639,7 +811,264 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^I should see items within that category$/, function(callback) {
+<br>Then(/^the item should be removed.$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await0_2">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Remove an item with the quantity of 3.
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await0_2"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In one of the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In one of the items$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I click on &quot;-&quot; button 3 times</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I click on "([^"]*)" button 3 times$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> the item should be removed.</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^the item should be removed.$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -681,7 +1110,7 @@ pre {
                     <a data-toggle="collapse" href="#collapseFeatureselenium_cucumber_example_await1">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
-                        <b>Feature:</b>Get more information
+                        <b>Feature:</b>Change the number of an item
                         <span class="label-container">
               
               
@@ -696,7 +1125,7 @@ pre {
             <div id="collapseFeatureselenium_cucumber_example_await1" class="panel-collapse collapse">
                 <div class="panel-body">
                     
-                    <div class="description">  In order to interest customers<br/>  User should be able to see more<br/>  about a product by clicking on it</div>
+                    <div class="description">  In order to buy more or less of an item in the shopping cart<br/>  the user wants the ability to change the number of that item</div>
                     
                     
                     <div class="panel panel-default">
@@ -714,7 +1143,7 @@ pre {
                                         <div style="padding-right: 10px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>Get product information by "click"
+                                            <b>Scenario:</b>Increase the quantity of an item by 1
                                         </div>
                                         <div>
                             <span class="label-container">
@@ -746,7 +1175,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Given </span>
-                          <span> that I am on &quot;https://willys.se&quot;</span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
                             
                           
                               <span class="step-duration">
@@ -760,7 +1189,93 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^that I am on "([^"]*)"$/, function(arg1, callback) {
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In one of the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In one of the items$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -789,7 +1304,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> I enter &quot;fisk &amp; skaldjur&quot; In categories</span>
+                          <span> I click on &quot;+&quot; button once</span>
                             
                           
                               <span class="step-duration">
@@ -803,93 +1318,7 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^I enter "([^"]*)" In categories$/, function(arg1, callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
-                                    
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> I enter &quot;Skaldjur &amp; Havsdelikatesser&quot;</span>
-                            
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-                                <pre class=info>
-<br>Then(/^I enter "([^"]*)"$/, function(arg1, callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
-                                    
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> I click on &quot;Hummer Amerikansk/kokt Fryst&quot;</span>
-                            
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-                                <pre class=info>
-<br>Then(/^I click on "([^"]*)"$/, function(arg1, callback) {
+<br>Then(/^I click on "([^"]*)" button once$/, function(arg1, callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -918,7 +1347,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> should get information about the product</span>
+                          <span> the quantity of  the item should be increased by 1</span>
                             
                           
                               <span class="step-duration">
@@ -932,7 +1361,7 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^should get information about the product$/, function(callback) {
+<br>Then(/^the quantity of  the item should be increased by 1$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -971,7 +1400,7 @@ pre {
                                         <div style="padding-right: 10px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>Get product information by "Enter"
+                                            <b>Scenario:</b>Increase the quantity of an item by 2.
                                         </div>
                                         <div>
                             <span class="label-container">
@@ -1003,7 +1432,1664 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Given </span>
-                          <span> that I am on &quot;https://willys.se&quot;</span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In one of the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In one of the items$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I click on &quot;+&quot; button twice</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I click on "([^"]*)" button twice$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> the quantity of  the item should be increased by 2</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^the quantity of  the item should be increased by 2$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await1_2">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Reduce the quantity of an item by 1
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await1_2"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In one of the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In one of the items$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I click on &quot;-&quot; button once</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I click on "([^"]*)" button once$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> the quantity of  the item should be reduced by 1</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^the quantity of  the item should be reduced by 1$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await1_3">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Reduce the quantity of an item by 2
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await1_3"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> &quot;In https://www.willys.se&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^"([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In one of the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In one of the items$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I click on &quot;-&quot; button twice</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I click on "([^"]*)" button twice$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> the quantity of  the item should be reduced by 2.</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^the quantity of  the item should be reduced by 2.$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+<div class="row" xmlns="http://www.w3.org/1999/html">
+    
+    <div class="col-lg-6 col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    
+                    <div class="tags">
+                    </div>
+                    
+                    <a data-toggle="collapse" href="#collapseFeatureselenium_cucumber_example_await2">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                        <b>Feature:</b>Empty the shopping cart
+                        <span class="label-container">
+              
+              
+              
+              
+              
+              
+                        </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseFeatureselenium_cucumber_example_await2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    
+                    <div class="description">  In order to regret the shopping cart items<br/>  the user wants to be able to delete the entire shopping cart</div>
+                    
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await2_0">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>empty shopping cart
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await2_0"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I click on &quot;Empty shopping cart&quot; button</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I click on "([^"]*)" button$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> It should delete all items in the shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^It should delete all items in the shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await2_1">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>empty shopping cart
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await2_1"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> In &quot;https://www.willys.se&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In "([^"]*)"$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> In shopping cart</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In shopping cart$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I write &quot;0&quot; in all the items</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I write "([^"]*)" in all the items$/, function(arg1, callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> All the items should be removed</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^All the items should be removed$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="col-lg-6 col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    
+                    <div class="tags">
+                    </div>
+                    
+                    <a data-toggle="collapse" href="#collapseFeatureselenium_cucumber_example_await3">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                        <b>Feature:</b>Selecting a product category
+                        <span class="label-container">
+              
+              
+              
+              
+              
+              
+                        </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseFeatureselenium_cucumber_example_await3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    
+                    <div class="description">  As a customer<br/>  I want to be able to go to different categories of goods<br/>  so that I can see which goods are included in a category (e.g. Bird, Tofu, etc.).</div>
+                    
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await3_0">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Categories and subcategories
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await3_0"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> In the menu section</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In the menu section$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I select plus sign of a category</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I select plus sign of a category$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> I should see items within that category</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I should see items within that category$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await3_1">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Willys category for example kykling
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await3_1"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> In the category section</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^In the category section$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I click on a category</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I click on a category$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> I should navigate to the selected category</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^I should navigate to the selected category$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+<div class="row" xmlns="http://www.w3.org/1999/html">
+    
+    <div class="col-lg-6 col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    
+                    <div class="tags">
+                    </div>
+                    
+                    <a data-toggle="collapse" href="#collapseFeatureselenium_cucumber_example_await4">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                        <b>Feature:</b>Get more information
+                        <span class="label-container">
+              
+              
+              
+              
+              
+              
+                        </span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseFeatureselenium_cucumber_example_await4" class="panel-collapse collapse">
+                <div class="panel-body">
+                    
+                    <div class="description">  In order to interest customers<br/>  User should be able to see more<br/>  about a product by clicking on it</div>
+                    
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenarioselenium_cucumber_example_await4_0">
+                                    <div>
+
+                                        <div style="padding-right: 10px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Get product information by "click"
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenarioselenium_cucumber_example_await4_0"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> that I am on &quot;https://www.willys.se/sortiment/fryst/fisk-och-skaldjur/kraftor-och-hummer&quot;</span>
                             
                           
                               <span class="step-duration">
@@ -1046,7 +3132,7 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> I enter &quot;fisk &amp; skaldjur&quot; In categories</span>
+                          <span> I click on fisk &amp; skaldjur in categories</span>
                             
                           
                               <span class="step-duration">
@@ -1060,93 +3146,7 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^I enter "([^"]*)" In categories$/, function(arg1, callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
-                                    
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> I enter &quot;Skaldjur &amp; Havsdelikatesser&quot;</span>
-                            
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-                                <pre class=info>
-<br>Then(/^I enter "([^"]*)"$/, function(arg1, callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
-                                    
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> I click on &quot;Hummer Amerikansk/kokt Fryst&quot;</span>
-                            
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-                                <pre class=info>
-<br>Then(/^I click on "([^"]*)"$/, function(arg1, callback) {
+<br>Then(/^I click on fisk & skaldjur in categories$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -1246,7 +3246,7 @@ pre {
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
                                                             "failed" : 0,
-                                                            "passed" : 2,
+                                                            "passed" : 5,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,

@@ -4,12 +4,10 @@ Feature: Selecting a product category
   so that I can see which goods are included in a category (e.g. Bird, Tofu, etc.).
 
   Scenario: Categories and subcategories
-    Given In the menu section
-    When I select plus sign of a category
+    Given In the menu section of "https://www.willys.se"
+    And I have selected the accept button
+    When I select a category
     Then I should see items within that category
 
 
-  Scenario: Willys category for example kykling
-    Given In the category section
-    When I click on a category
-    Then I should navigate to the selected category
+
