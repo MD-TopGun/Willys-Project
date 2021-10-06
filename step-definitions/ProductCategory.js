@@ -41,8 +41,8 @@ module.exports = function () {
 
 
     this.Then(/^I should see items within that category$/, async function () {
-        await driver.wait(until.elementsLocated(by.css('any')), 10000);
-        let elements = await driver.findElements(by.css('any'));
+        await driver.wait(until.elementsLocated(by.css('.Product_product-header__3sHfy')), 10000);
+        let elements = await driver.findElements(by.css('.Product_product-header__3sHfy'));
 
         expect(elements.length).to.not.equal(0);
     });
