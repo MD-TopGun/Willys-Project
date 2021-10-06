@@ -29,7 +29,7 @@ module.exports = function () {
         let loadmorebutton;
         for (let button of buttons) {
             let textofbutton = await button.getText();
-            if (textofbutton === 'href="/sortiment/frukt-och-gront"') {
+            if (textofbutton === 'Kött, chark & fågel') {
                 loadmorebutton = button;
             }
             break;
@@ -41,8 +41,8 @@ module.exports = function () {
 
 
     this.Then(/^I should see items within that category$/, async function () {
-        await driver.wait(until.elementsLocated(by.css('div.g')), 10000);
-        let elements = await driver.findElements(by.css('div.g'));
+        await driver.wait(until.elementsLocated(by.css('any')), 10000);
+        let elements = await driver.findElements(by.css('any'));
 
         expect(elements.length).to.not.equal(0);
     });
