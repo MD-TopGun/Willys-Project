@@ -1,7 +1,7 @@
 {
   "name": "Willys Project",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm install### Step 1 - Run npm install",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/updated-selenium-cucumber-js/index.js"
@@ -12,5 +12,13 @@
   "dependencies": {
     "selenium-webdriver": "^4.0.0-rc-2",
     "updated-selenium-cucumber-js": "^1.8.3-rc4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD-TopGun/Willys-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MD-TopGun/Willys-Project/issues"
+  },
+  "homepage": "https://github.com/MD-TopGun/Willys-Project#readme"
 }
