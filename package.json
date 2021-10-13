@@ -1,10 +1,14 @@
 {
-  "name": "Willys Project",
+  "name": "whatever",
   "version": "1.0.0",
   "description": "npm install### Step 1 - Run npm install",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/updated-selenium-cucumber-js/index.js"
+    "test": "node ./node_modules/updated-selenium-cucumber-js/index.js",
+    "test-emptyShoppingCart": "node ./node_modules/updated-selenium-cucumber-js/index.js -f features/emptyShoppingCart.feature",
+    "test-addAndRemove": "node ./node_modules/updated-selenium-cucumber-js/index -f features/addAndRemoveProduct.feature",
+    "test-removeOneItem": "node ./node_modules/updated-selenium-cucumber-js/index -f features/removeOneItem.feature",
+    "test-productInfo": "node ./node_modules/updated-selenium-cucumber-js/index -f features/productInfo.feature"
   },
   "keywords": [],
   "author": "",

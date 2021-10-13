@@ -37,6 +37,7 @@ module.exports = function () {
     // Grab the minus-button of the first product and click it 
     let minusButton = await driver.findElement(By.css('.ax-product-quantity-minus'));
     await minusButton.click();
+    driver.sleep(2000);
     // Now the "where to deliver popup" should be gone...
     // and no products in the cart...
     await waitAWhile();

@@ -2,7 +2,7 @@ const { $, $$, $$$, isEmptyShoppingCart } = require('../helpers/element-selectio
 let slowDown = true;
 
 async function waitAWhile() {
-  await driver.sleep(slowDown ? 5000 : 0);
+  await driver.sleep(slowDown ? 1000 : 0);
 }
 
 module.exports = function () {
