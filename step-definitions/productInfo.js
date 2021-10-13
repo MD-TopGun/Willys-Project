@@ -6,25 +6,10 @@ async function waitAWhile() {
 }
 module.exports = function () {
 
-  // /^ = Start of regular expression
-  // $/ = End of regular expression
-  // "([^"]*)" = match anything inside quotation marks
-
   this.Given(/^that I am on "([^"]*)"$/, async function (url) {
     await helpers.loadPage(url);
   });
-  this.Given(/^that we accepted the standard cookie policy$/, async function () {
-    await driver.wait(until.elementsLocated(By.css('#onetrust-accept-btn-handler'), 10000));
-    let confirmButton = await driver.findElement(By.css('#onetrust-accept-btn-handler'));
-    /*while (!(confirmButton.isDisplayed())) {
-      await driver.sleep(1000);
-    }*/
-    // the isDisplayed doesn't work
-    await driver.sleep(1000);
-    await confirmButton.click();
-    await waitAWhile();
 
-  });
 
   //Take the  element selector from the feature and find the 
   //product and click on it
