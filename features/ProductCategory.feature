@@ -10,14 +10,14 @@ Feature: Selecting a product category
     Then I should see items within that category
 
 
-#And I can see a list of <subcategory> thereafter
-#And I should not see vegetable within meat category
+    And I can see a list of <subcategory> thereafter
+    #And I should not see vegetable within meat category
 
 
 
-#Examples: product sub categories
-# | subcategory                                       |
-#| "a[href*= 'kott-chark-och-fagel/fagel']"          |
+    Examples: product sub categories
+      | subcategory                              |
+      | "a[href*= 'kott-chark-och-fagel/fagel']" |
 #      | "a[href*='kott-chark-och-fagel/kott']"            |
 #| "a[href*='kott-chark-och-fagel/korv']"            |
 #| "a[href*='kott-chark-och-fagel/chark']"           |
