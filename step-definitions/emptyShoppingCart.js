@@ -4,7 +4,7 @@ let slowDown = true;
 async function waitAWhile() {
   await driver.sleep(slowDown ? 1000 : 0);
 }
-
+//let itemsListLength;
 module.exports = function () {
 
   this.Given(/^I have three items in my shopping cart$/, async function () {
@@ -12,13 +12,16 @@ module.exports = function () {
     let openCategory = await $('a[href="/sortiment/dryck"]');
     await driver.executeScript('document.querySelector(\'a[href="/sortiment/dryck"]\').scrollIntoView()');
     await openCategory.click();
-    await waitAWhile();
+    waitAWhile();
     //Get a list of drinks and choose 3 of them to add to cart one each
     let products = await driver.findElements(By.css('[itemtype="https://schema.org/Product"]'));
     await products[0].findElement(By.css('button[title="Öka antal"]')).click();
     await products[5].findElement(By.css('button[title="Öka antal"]')).click();
     await products[9].findElement(By.css('button[title="Öka antal"]')).click();
-    await driver.sleep(100);
+    await driver.sleep(1000);
+
+    //let itemsList = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
+    // console.log('\nThe number of different products before deleting:\n', itemsList.length);
 
   });
 
@@ -28,19 +31,27 @@ module.exports = function () {
     await shoppingCart.click();
     let trash = await $('svg[data-src="/icons/DELETE-24px.svg"]');
     await trash.click();
+    waitAWhile();
+
     await driver.wait(until.elementsLocated(by.css('button[data-testid="modal-confirm-button"]')), 10000);
     let emptyConfirmation = await $('button[data-testid="modal-confirm-button"]');
     emptyConfirmation.click();
+    driver.sleep(2000);
+    let itemsListLength = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
+    console.log('\nThe number of different products after deleting:\n', itemsListLength.length);
+    waitAWhile();
   });
 
+
   this.Then(/^It should delete all items in the shopping cart$/, async function () {
-
     let emptyMiniCart =
-      await $('[class^="MiniCartstyles__StyledCounter"]')
+      await $$('[class^="ProductListItemstyles__StyledWrapper"]')
         .then(found => !found.length);
-    expect(emptyMiniCart).to.equal(true);
-    await driver.sleep(100);
-
+    if (emptyMiniCart === false) {
+      expect(console.log('\n!!!!!!!!!!!!!!!!!!!   ERORR: The shopping cart is not empty  !!!!!!!!\n'))
+    } else {
+      expect(emptyMiniCart).to.equal(true)
+    };
 
   });
 }

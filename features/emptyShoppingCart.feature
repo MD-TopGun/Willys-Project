@@ -11,5 +11,6 @@ Feature: Empty the shopping cart
   Scenario: empty shopping cart
     Given I have three items in my shopping cart
     When I click on “Empty shopping cart” button
+    #And  I have three items in my shopping cart
     Then It should delete all items in the shopping cart
 
