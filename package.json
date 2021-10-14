@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "whatever",
-=======
-  "name": "whatever",
->>>>>>> f6b03378e85cb7124b5275639fe0375ecdc050ab
   "version": "1.0.0",
   "description": "npm install### Step 1 - Run npm install",
   "main": "index.js",
