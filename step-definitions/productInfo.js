@@ -23,7 +23,11 @@ module.exports = function () {
   //As a result check if the table of information is not empty(null)
   this.Then(/^There is information on the table$/, async function () {
     let isThereInfo = await $$("[class^= ProductTableOfInformation]");
-    expect(isThereInfo).to.not.equal(null);
+    //console.log(isThereInfo.length);
+    if (isThereInfo.length === 0) {
+      expect(console.log('\n\n ERROR: Information for this product is missing\n'))
+    }
+    expect(isThereInfo).to.not.equal(null)
 
   });
 }
