@@ -1,4 +1,4 @@
-const { $, $$, $$$, isEmptyShoppingCart } = require('../helpers/element-selection.js');
+const { $, $$ } = require('../helpers/element-selection.js');
 let slowDown = true;
 
 async function waitAWhile() {
@@ -20,11 +20,11 @@ module.exports = function () {
     await waitAWhile();
     //find the frysta fågel sub category scroll down and click and wait
     await driver.wait(until.elementsLocated(by.css('a[href*="fagel/fryst-fagel"]')), 10000);
-    let openLastSubCategory = $('a[href*="fagel/fryst-fagel"]');
-    /* while (!(await openLastSubCategory.isDisplayed())) {
-       //await driver.sleep(100);
-       await driver.executeScript('document.querySelector(\'a[href*="fagel/fryst-fagel"]\').scrollIntoView()');
-     }*/
+    let openLastSubCategory = await $('a[href*="fagel/fryst-fagel"]');
+    while (!(await openLastSubCategory.isDisplayed())) {
+      //await driver.sleep(100);
+      await driver.executeScript('document.querySelector(\'a[href*="fagel/fryst-fagel"]\').scrollIntoView()');
+    }
     await openLastSubCategory.click();
     await waitAWhile();
   });
@@ -71,7 +71,7 @@ module.exports = function () {
   });
 
   this.Then(/^the quantity of the item should be (\d+)$/, async function (inputNumber) {
-    let found = await driver.findElements(by.css('[class*="ProductListItemstyles__StyledWrapper"]'));
+    let found = await $$('[class*="ProductListItemstyles__StyledWrapper"]');
     if (found.length === 0) {
       quantity = 0
     } else {
