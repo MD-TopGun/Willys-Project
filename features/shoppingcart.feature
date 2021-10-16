@@ -10,4 +10,4 @@ Feature: Viewing Shopping Cart
     Scenario: Add products to the shopping cart and view quantity in mini-cart
         Given that I am on the Fruit and Vegetable category page
         When I put a random number of each Fruit and Vegetable that has price per piece in the cart
-        Then the mini\-cart should show the correct total quantity of products
+        Then the mini-cart should show the correct total quantity of products

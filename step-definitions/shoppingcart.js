@@ -65,7 +65,7 @@ module.exports = function () {
     }
   });
 
-  this.Then(/^the mini\-cart should show the correct total quantity of products$/, async function () {
+  this.Then(/^the mini-cart should show the correct total quantity of products$/, async function () {
     // Calculate total quantity
     let totalQuantity = 0;
     for (let { quantity } of boughtProducts) {
