@@ -30,6 +30,7 @@ module.exports = function () {
   });
 
   this.When(/^I choose Chicken Tom Yum Bits to buy$/, async function () {
+    driver.sleep(5000);
     await driver.wait(until.elementsLocated(by.css('button[class*="LoadMore"]')), 10000);
     let loadMoreButton = $('button[class*="LoadMore"]');
     await loadMoreButton.click();

@@ -21,7 +21,7 @@ module.exports = function () {
 
     });
 
-    this.When(/^I select a category$/, async function () {
+    this.When(/^I select meat category$/, async function () {
         //await driver.wait(until.elementsLocated(by.css('#onetrust-accept-btn-handler')), 10000)
         await driver.sleep(5000);
 
