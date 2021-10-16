@@ -21,11 +21,11 @@ module.exports = function () {
     let numberOfSameProduct = +valueAttr.split(' ')[0];
     for (let i = 0; i <= numberOfSameProduct; i++) {
       await removeItem.click();
-      driver.sleep(1000);
+      driver.sleep(2000);
     }
     waitAWhile();
   });
-  this.Then(/^the item should not be in the cart any more$/, async function () {
+  this.Then(/^the item should not be in the cart anymore$/, async function () {
     await driver.wait(until.elementsLocated(by.css('[class^="ProductListItemstyles__StyledWrapper"]')), 10000);
     let itemsList = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
     let itemListLength = itemsList.length;

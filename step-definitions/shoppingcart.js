@@ -67,10 +67,12 @@ module.exports = function () {
 
   this.Then(/^the mini-cart should show the correct total quantity of products$/, async function () {
     // Calculate total quantity
+    await driver.sleep(3000);
     let totalQuantity = 0;
     for (let { quantity } of boughtProducts) {
       totalQuantity += quantity;
     }
+    await driver.sleep(3000);
     // Get quantity from mini-cart
     let miniCartTotalQuantity = +(await (await driver.findElement(By.css('[class^="MiniCartstyles__StyledCounter"]'))).getText());
     // Check that the total quantity displayed in the mini-cart

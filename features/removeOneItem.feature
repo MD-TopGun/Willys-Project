@@ -13,7 +13,7 @@ Feature: Remove an item in the shopping cart
   Scenario: Remove an item by enter 0 and press return
     When I regret the first product on the shopping cart
     And I write 0 in the input field of the product
-    Then the item should not be in the cart any more
+    Then the item should not be in the cart anymore
 
   Scenario: Remove an item by clicking minus button
     When I regret the first product on the shopping cart
