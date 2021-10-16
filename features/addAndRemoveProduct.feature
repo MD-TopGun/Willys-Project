@@ -15,7 +15,7 @@ Feature: Change the number of an item
         Then the quantity of the item should be <numberToIncreaseProduct>
         Examples:
             | numberToIncreaseProduct |
-            | 1                       |
+            #          | 1                       |
             | 3                       |
     #| 8                       |
     Scenario Outline: Decrease the quantity of an item by click on minus button
@@ -26,7 +26,7 @@ Feature: Change the number of an item
         Then the quantity of the item should be <difference>
         Examples:
             | numberOfProduct | numberToDecreaseProduct | difference |
-            | 2               | 2                       | 0          |
+            #           | 2               | 2                       | 0          |
             | 3               | 2                       | 1          |
     # | 8               | 5                       | 3          |
 
@@ -38,6 +38,6 @@ Feature: Change the number of an item
 
         Examples:
             | numberOfProduct |
-            | 1               |
+            #            | 1               |
             | 5               |
 # | 10              |
