@@ -9,7 +9,8 @@
     "test-addAndRemove": "node ./node_modules/updated-selenium-cucumber-js/index -f features/addAndRemoveProduct.feature",
     "test-removeOneItem": "node ./node_modules/updated-selenium-cucumber-js/index -f features/removeOneItem.feature",
     "test-productInfo": "node ./node_modules/updated-selenium-cucumber-js/index -f features/productInfo.feature",
-    "test-ProductCategory": "node ./node_modules/updated-selenium-cucumber-js/index -f features/ProductCategory.feature"
+    "test-ProductCategory": "node ./node_modules/updated-selenium-cucumber-js/index -f features/ProductCategory.feature",
+    "test-shoppingcart": "node ./node_modules/updated-selenium-cucumber-js/index -f features/shoppingcart.feature"
   },
   "keywords": [],
   "author": "",

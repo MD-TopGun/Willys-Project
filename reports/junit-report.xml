@@ -1,619 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" tests="7" failures="1" skipped="5">
+    <testsuite name="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" tests="7" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="1.0294086">
+        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="38.5185838">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="10.0056064">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10004ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="8.1893736">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="5.4244149">
         </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="11.3338942">
         </testcase>
-        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="8.3617144">
         </testcase>
-        <testcase name="And I click 1 times on plus button" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click 3 times on plus button" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="1.3586373">
         </testcase>
-        <testcase name="Then the quantity of the item should be 1" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the quantity of the item should be 3" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="0.095227">
         </testcase>
     </testsuite>
-    <testsuite name="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" tests="7" failures="1" skipped="5">
+    <testsuite name="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" tests="8" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="0.7513534">
+        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.0718033">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="10.0041494">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10003ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.9310961">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="4.6035215">
         </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="5.7682157">
         </testcase>
-        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="8.6384957">
         </testcase>
-        <testcase name="And I click 3 times on plus button" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I write 3 in the input field of the product" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.2610338">
         </testcase>
-        <testcase name="Then the quantity of the item should be 3" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click 2 times on minus button" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.1193191">
+        </testcase>
+        <testcase name="Then the quantity of the item should be 1" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="0.0485871">
         </testcase>
     </testsuite>
-    <testsuite name="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" tests="8" failures="1" skipped="6">
+    <testsuite name="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" tests="7" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="0.7627337">
+        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="2.0403918">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="10.0141297">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10014ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="2.9416955">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="4.4807692">
         </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="5.7807128">
         </testcase>
-        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="8.4345363">
         </testcase>
-        <testcase name="And I write 2 in the input field of the product" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I write 5 in the input field of the product" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="2.2193382">
         </testcase>
-        <testcase name="And I click 2 times on minus button" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the quantity of the item should be 0" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the quantity of the item should be 5" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="0.043636">
         </testcase>
     </testsuite>
-    <testsuite name="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" tests="8" failures="1" skipped="6">
-        <properties>
-            <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
-            </property>
-        </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="0.7605387">
-        </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="10.0219528">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10022ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
-        </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I write 3 in the input field of the product" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I click 2 times on minus button" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the quantity of the item should be 1" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" tests="7" failures="1" skipped="5">
-        <properties>
-            <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
-            </property>
-        </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="0.7632686">
-        </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="10.0066692">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10006ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
-        </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I write 1 in the input field of the product" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the quantity of the item should be 1" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" tests="7" failures="1" skipped="5">
-        <properties>
-            <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
-            </property>
-        </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="0.7428074">
-        </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="10.000716">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10000ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
-        </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I write 5 in the input field of the product" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the quantity of the item should be 5" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="empty-the-shopping-cart;empty-shopping-cart" tests="6" failures="1" skipped="4">
+    <testsuite name="empty-the-shopping-cart;empty-shopping-cart" tests="6" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/emptyShoppingCart.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="empty-the-shopping-cart;empty-shopping-cart" time="0.758133">
+        <testcase name="Given that we are on Willy&apos;s website" classname="empty-the-shopping-cart;empty-shopping-cart" time="2.0619631">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="empty-the-shopping-cart;empty-shopping-cart" time="10.0056218">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10005ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="empty-the-shopping-cart;empty-shopping-cart" time="2.8880845">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-the-shopping-cart;empty-shopping-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-the-shopping-cart;empty-shopping-cart" time="4.466044">
         </testcase>
-        <testcase name="Given I have three items in my shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given I have three items in my shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart" time="6.7599462">
         </testcase>
-        <testcase name="When I click on “Empty shopping cart” button" classname="empty-the-shopping-cart;empty-shopping-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I click on “Empty shopping cart” button" classname="empty-the-shopping-cart;empty-shopping-cart" time="5.523185">
         </testcase>
-        <testcase name="Then It should delete all items in the shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then It should delete all items in the shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart" time="0.0087461">
         </testcase>
     </testsuite>
-    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="1" skipped="3">
+    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="0.7656406">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.7525389">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="10.0061951">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10006ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.9780992">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/kott-chark-och-fagel/fagel/farsk-fagel&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/kott-chark-och-fagel/fagel/farsk-fagel&quot;" classname="get-more-information;open-a-product-info" time="2.5038132">
         </testcase>
-        <testcase name="And I click on a &quot;a[href*= &apos;Majskyckling-Hel-Sverige&apos;]&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click on a &quot;a[href*= &apos;Majskyckling-Hel-Sverige&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.3718527">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0142513">
         </testcase>
     </testsuite>
-    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="1" skipped="3">
+    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="0.7621681">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.7791832">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="10.0101802">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10010ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="3.0105303">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/frukt-och-gront/frukt&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/frukt-och-gront/frukt&quot;" classname="get-more-information;open-a-product-info" time="2.1189634">
         </testcase>
-        <testcase name="And I click on a &quot;a[href*=&apos;apple-Royal-Gala-Klass-1&apos;]&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click on a &quot;a[href*=&apos;apple-Royal-Gala-Klass-1&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.3477269">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0141811">
         </testcase>
     </testsuite>
-    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="1" skipped="3">
+    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="0.7868453">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.973645">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="10.0128831">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10013ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.7880279">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info" time="2.1263116">
         </testcase>
-        <testcase name="And I click on a &quot;a[href*=&apos;Blom-Jord&apos;]&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click on a &quot;a[href*=&apos;Blom-Jord&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.5094554">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0141904">
         </testcase>
     </testsuite>
-    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="1" skipped="3">
+    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="0.7572512">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.9662289">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="10.0146348">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10014ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.799989">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/lotter&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/lotter&quot;" classname="get-more-information;open-a-product-info" time="1.1177973">
         </testcase>
-        <testcase name="And I click on a &quot;a[href*=&apos;Triss-Lott&apos;]&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click on a &quot;a[href*=&apos;Triss-Lott&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.320288">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0145541">
         </testcase>
     </testsuite>
-    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="1" skipped="3">
+    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="0.9329341">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.8847949">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="10.0020694">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10002ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.7947217">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info" time="2.2765462">
         </testcase>
-        <testcase name="And I click on a &quot;[href*=&apos;Helgbukett&apos;]&quot;" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click on a &quot;[href*=&apos;Helgbukett&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.369623">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0152433">
         </testcase>
     </testsuite>
-    <testsuite name="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" tests="8" failures="1" skipped="6">
+    <testsuite name="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" tests="8" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/removeOneItem.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="0.9462581">
+        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="1.7867681">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="10.0018463">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10001ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.9790672">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="4.4073765">
         </testcase>
-        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="7.0117591">
         </testcase>
-        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.2609976">
         </testcase>
-        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="0.0137821">
         </testcase>
-        <testcase name="And I write 0 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I write 0 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.1630999">
         </testcase>
-        <testcase name="Then the item should not be in the cart any more" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the item should not be in the cart any more" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="0.0200102">
         </testcase>
     </testsuite>
-    <testsuite name="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" tests="8" failures="1" skipped="6">
+    <testsuite name="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" tests="8" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/removeOneItem.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="1.0276892">
+        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="1.7800966">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="10.007984">
-            <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10007ms
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-From: Task: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-    at scheduleWait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2188:20)
-    at ControlFlow.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2517:12)
-    at thenableWebDriverProxy.wait (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\common-background.js:14:18)
-    at processTicksAndRejections (internal/process/task_queues.js:77:11)</failure>
+        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="2.8168801">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="4.5366897">
         </testcase>
-        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="6.6178868">
         </testcase>
-        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="2.2745189">
         </testcase>
-        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="0.0146725">
         </testcase>
-        <testcase name="And I decrease the number of same product until zero by clicking on minus button" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I decrease the number of same product until zero by clicking on minus button" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="9.860042">
         </testcase>
-        <testcase name="Then the item should not be in the cart any more" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the item should not be in the cart any more" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="0.0182205">
         </testcase>
     </testsuite>
     <testsuite name="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" tests="5" failures="0" skipped="5">
