@@ -5,19 +5,19 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="2.164655">
+        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="2.1930588">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="2.8859934">
+        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="2.8961242">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="4.4843396">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="4.4205897">
         </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="5.6105163">
+        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="5.8504547">
         </testcase>
-        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="8.4350321">
+        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="8.5702674">
         </testcase>
-        <testcase name="And I click 3 times on plus button" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="1.3644484">
+        <testcase name="And I click 3 times on plus button" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="1.3926555">
         </testcase>
-        <testcase name="Then the quantity of the item should be 3" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="0.0404103">
+        <testcase name="Then the quantity of the item should be 3" classname="change-the-number-of-an-item;increase-the-quantity-of-an-item-by-click-on-plus-button" time="0.0413931">
         </testcase>
     </testsuite>
     <testsuite name="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" tests="8" failures="0" skipped="0">
@@ -25,21 +25,21 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.061296">
+        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.2387054">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.9931165">
+        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.8868535">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="4.4047214">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="4.5263307">
         </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="6.8488783">
+        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="6.0412407">
         </testcase>
-        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="8.414755">
+        <testcase name="When I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="8.3524448">
         </testcase>
-        <testcase name="And I write 3 in the input field of the product" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.2424606">
+        <testcase name="And I write 3 in the input field of the product" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.2587286">
         </testcase>
-        <testcase name="And I click 2 times on minus button" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="2.0609674">
+        <testcase name="And I click 2 times on minus button" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="1.8575631">
         </testcase>
-        <testcase name="Then the quantity of the item should be 1" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="0.0433377">
+        <testcase name="Then the quantity of the item should be 1" classname="change-the-number-of-an-item;decrease-the-quantity-of-an-item-by-click-on-minus-button" time="0.0413602">
         </testcase>
     </testsuite>
     <testsuite name="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" tests="7" failures="0" skipped="0">
@@ -47,19 +47,19 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/addAndRemoveProduct.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="1.9941892">
+        <testcase name="Given that we are on Willy&apos;s website" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="2.1390265">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="2.8686774">
+        <testcase name="And that we accepted the standard cookie policy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="3.0248886">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="4.4986794">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="4.5692941">
         </testcase>
-        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="5.7591134">
+        <testcase name="Given that I am in category Fryst fågel" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="5.8850263">
         </testcase>
-        <testcase name="And I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="8.8509327">
+        <testcase name="And I choose Chicken Tom Yum Bits to buy" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="8.4054351">
         </testcase>
-        <testcase name="When I write 5 in the input field of the product" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="2.2343713">
+        <testcase name="When I write 5 in the input field of the product" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="2.2557914">
         </testcase>
-        <testcase name="Then the quantity of the item should be 5" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="0.0378208">
+        <testcase name="Then the quantity of the item should be 5" classname="change-the-number-of-an-item;giv-the-quantity-of-an-item-by-write-and-press-enter" time="0.0409906">
         </testcase>
     </testsuite>
     <testsuite name="empty-the-shopping-cart;empty-shopping-cart" tests="6" failures="0" skipped="0">
@@ -67,33 +67,17 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/emptyShoppingCart.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="empty-the-shopping-cart;empty-shopping-cart" time="1.8256158">
+        <testcase name="Given that we are on Willy&apos;s website" classname="empty-the-shopping-cart;empty-shopping-cart" time="2.0624903">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="empty-the-shopping-cart;empty-shopping-cart" time="2.8594335">
+        <testcase name="And that we accepted the standard cookie policy" classname="empty-the-shopping-cart;empty-shopping-cart" time="3.2375447">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-the-shopping-cart;empty-shopping-cart" time="4.4132147">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-the-shopping-cart;empty-shopping-cart" time="4.5508428">
         </testcase>
-        <testcase name="Given I have three items in my shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart" time="7.0412025">
+        <testcase name="Given I have three items in my shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart" time="6.8955566">
         </testcase>
-        <testcase name="When I click on “Empty shopping cart” button" classname="empty-the-shopping-cart;empty-shopping-cart" time="5.4792935">
+        <testcase name="When I click on “Empty shopping cart” button" classname="empty-the-shopping-cart;empty-shopping-cart" time="5.5680122">
         </testcase>
-        <testcase name="Then It should delete all items in the shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart" time="0.0088102">
-        </testcase>
-    </testsuite>
-    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
-            </property>
-        </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.8988762">
-        </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.7589455">
-        </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/kott-chark-och-fagel/fagel/farsk-fagel&quot;" classname="get-more-information;open-a-product-info" time="2.2419184">
-        </testcase>
-        <testcase name="And I click on a &quot;a[href*= &apos;Majskyckling-Hel-Sverige&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.371728">
-        </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0139998">
+        <testcase name="Then It should delete all items in the shopping cart" classname="empty-the-shopping-cart;empty-shopping-cart" time="0.0093199">
         </testcase>
     </testsuite>
     <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
@@ -101,31 +85,15 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="2.1565495">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="2.0318535">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="3.0699048">
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="3.0956479">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/frukt-och-gront/frukt&quot;" classname="get-more-information;open-a-product-info" time="2.3540989">
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/kott-chark-och-fagel/fagel/farsk-fagel&quot;" classname="get-more-information;open-a-product-info" time="2.2313231">
         </testcase>
-        <testcase name="And I click on a &quot;a[href*=&apos;apple-Royal-Gala-Klass-1&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.3877765">
+        <testcase name="And I click on a &quot;a[href*= &apos;Majskyckling-Hel-Sverige&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.3646879">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0131012">
-        </testcase>
-    </testsuite>
-    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
-            </property>
-        </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="2.0482736">
-        </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.8193572">
-        </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info" time="2.3275209">
-        </testcase>
-        <testcase name="And I click on a &quot;a[href*=&apos;Blom-Jord&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.504592">
-        </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0136602">
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.014813">
         </testcase>
     </testsuite>
     <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
@@ -133,15 +101,15 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="2.1596154">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="2.3707737">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.8592137">
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.9905223">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/lotter&quot;" classname="get-more-information;open-a-product-info" time="1.34446">
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/frukt-och-gront/frukt&quot;" classname="get-more-information;open-a-product-info" time="2.2338288">
         </testcase>
-        <testcase name="And I click on a &quot;a[href*=&apos;Triss-Lott&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.2845254">
+        <testcase name="And I click on a &quot;a[href*=&apos;apple-Royal-Gala-Klass-1&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.3511562">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0139013">
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0134421">
         </testcase>
     </testsuite>
     <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
@@ -149,15 +117,47 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.8693487">
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="2.0749985">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.7942491">
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.9459608">
         </testcase>
-        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info" time="2.0468696">
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info" time="2.1292186">
         </testcase>
-        <testcase name="And I click on a &quot;[href*=&apos;Helgbukett&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.3641467">
+        <testcase name="And I click on a &quot;a[href*=&apos;Blom-Jord&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.5466292">
         </testcase>
-        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0144456">
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0146058">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
+            </property>
+        </properties>
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.8077769">
+        </testcase>
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.9776174">
+        </testcase>
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/lotter&quot;" classname="get-more-information;open-a-product-info" time="1.3231246">
+        </testcase>
+        <testcase name="And I click on a &quot;a[href*=&apos;Triss-Lott&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.30508">
+        </testcase>
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0165069">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-more-information;open-a-product-info" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Willys Project/Willys-Project/features/productInfo.feature">
+            </property>
+        </properties>
+        <testcase name="Given that we are on Willy&apos;s website" classname="get-more-information;open-a-product-info" time="1.7251415">
+        </testcase>
+        <testcase name="And that we accepted the standard cookie policy" classname="get-more-information;open-a-product-info" time="2.7133312">
+        </testcase>
+        <testcase name="Given that I am on &quot;https://www.willys.se/sortiment/blommor-och-tradgard&quot;" classname="get-more-information;open-a-product-info" time="2.0354413">
+        </testcase>
+        <testcase name="And I click on a &quot;[href*=&apos;Helgbukett&apos;]&quot;" classname="get-more-information;open-a-product-info" time="2.3649875">
+        </testcase>
+        <testcase name="Then There is information on the table" classname="get-more-information;open-a-product-info" time="0.0155306">
         </testcase>
     </testsuite>
     <testsuite name="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" tests="8" failures="0" skipped="0">
@@ -165,47 +165,43 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/removeOneItem.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.3115194">
+        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.0821366">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.8485701">
+        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.8225053">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="4.4896926">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="4.4734939">
         </testcase>
-        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="6.7555694">
+        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="6.6560966">
         </testcase>
-        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.2580084">
+        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.2628217">
         </testcase>
-        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="0.0122237">
+        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="0.0145181">
         </testcase>
-        <testcase name="And I write 0 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.172246">
+        <testcase name="And I write 0 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="2.1656024">
         </testcase>
-        <testcase name="Then the item should not be in the cart any more" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="0.0203262">
+        <testcase name="Then the item should not be in the cart anymore" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-enter-0-and-press-return" time="0.0202071">
         </testcase>
     </testsuite>
-    <testsuite name="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" tests="8" failures="1" skipped="0">
+    <testsuite name="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" tests="8" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Willys Project/Willys-Project/features/removeOneItem.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="2.0126937">
+        <testcase name="Given that we are on Willy&apos;s website" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="1.9846854">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="3.0549643">
+        <testcase name="And that we accepted the standard cookie policy" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="2.9025177">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="4.483559">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="4.4488908">
         </testcase>
-        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="6.8988276">
+        <testcase name="And I have three items in my shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="6.5315281">
         </testcase>
-        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="2.2765918">
+        <testcase name="And I write 9 in the input field of the product" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="2.23808">
         </testcase>
-        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="0.0128769">
+        <testcase name="When I regret the first product on the shopping cart" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="0.0145615">
         </testcase>
-        <testcase name="And I decrease the number of same product until zero by clicking on minus button" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="9.8837594">
+        <testcase name="And I decrease the number of same product until zero by clicking on minus button" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="18.8743308">
         </testcase>
-        <testcase name="Then the item should not be in the cart any more" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="0.0194301">
-            <failure message="AssertionError: expected 3 to equal 4">AssertionError: expected 3 to equal 4
-    at createWorld.&lt;anonymous&gt; (C:\Willys Project\Willys-Project\step-definitions\removeOneItem.js:33:34)
-    at runMicrotasks (&lt;anonymous&gt;)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+        <testcase name="Then the item should not be in the cart anymore" classname="remove-an-item-in-the-shopping-cart;remove-an-item-by-clicking-minus-button" time="0.0191639">
         </testcase>
     </testsuite>
     <testsuite name="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" tests="6" failures="1" skipped="4">
@@ -213,11 +209,11 @@
             <property name="URI" value="C:/Willys Project/Willys-Project/features/shoppingcart.feature">
             </property>
         </properties>
-        <testcase name="Given that we are on Willy&apos;s website" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="0.9027616">
+        <testcase name="Given that we are on Willy&apos;s website" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="0.8396884">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="10.0056947">
+        <testcase name="And that we accepted the standard cookie policy" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="10.013996">
             <failure message="TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)">TimeoutError: Waiting for at least one element to be located By(css selector, #onetrust-accept-btn-handler)
-Wait timed out after 10005ms
+Wait timed out after 10013ms
     at C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:2201:17
     at ManagedPromise.invokeCallback_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:1376:14)
     at TaskQueue.execute_ (C:\Willys Project\Willys-Project\node_modules\updated-selenium-cucumber-js\node_modules\selenium-webdriver\lib\promise.js:3084:14)
