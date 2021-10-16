@@ -3,7 +3,7 @@ module.exports = function () {
   // Common variables shared between steps and/or scenarios
   let boughtProducts;
 
-  this.Given(/^that I am on the Fruit and Vegetable category page "([^"]*)"$/, async function (url) {
+  this.Given(/^that I am on the Fruit and Vegetable category page$/, async function () {
     // You could just do this:
     // await helpers.loadPage('https://www.willys.se/sortiment/frukt-och-gront/gronsaker');
     // But it is probably more realistic to think that the user

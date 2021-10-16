@@ -11,18 +11,23 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that I am on willys Website",
+            "name": "that we are on Willy's website",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2651114100
             },
-            "line": 5
+            "line": 5,
+            "match": {
+              "location": "Project\\Willys-Project\\step-definitions\\common-background.js:9"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "that we accepted the standard cookie policy",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3073938100
             },
             "line": 6,
             "match": {
@@ -31,10 +36,24 @@
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "name": "that I am on the Fruit and Vegetable category page \"https://www.willys.se\"",
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4588180100
+            },
+            "line": 7,
+            "match": {
+              "location": "Project\\Willys-Project\\step-definitions\\common-background.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the Fruit and Vegetable category page",
+            "result": {
+              "status": "passed",
+              "duration": 2670283500
             },
             "line": 11,
             "match": {
@@ -46,7 +65,8 @@
             "keyword": "When ",
             "name": "I put a random number of each Fruit and Vegetable that has price per piece in the cart",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6282209600
             },
             "line": 12,
             "match": {
@@ -56,21 +76,18 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the mini-cart should show the correct total quantity of products",
+            "name": "the mini\\-cart should show the correct total quantity of products",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 13,
-            "match": {
-              "location": "Project\\Willys-Project\\step-definitions\\shoppingcart.js:68"
-            }
+            "line": 13
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1233771000
+              "duration": 4196222700
             },
             "hidden": true,
             "match": {

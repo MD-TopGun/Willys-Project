@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" tests="5" failures="0" skipped="5">
+    <testsuite name="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" tests="6" failures="0" skipped="1">
         <properties>
             <property name="URI" value="C:\Willys Project\Willys-Project\features\shoppingcart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on willys Website" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that we are on Willy&apos;s website" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="2.6511141">
         </testcase>
-        <testcase name="And that we accepted the standard cookie policy" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we accepted the standard cookie policy" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="3.0739381">
         </testcase>
-        <testcase name="Given that I am on the Fruit and Vegetable category page &quot;https://www.willys.se&quot;" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="4.5881801">
         </testcase>
-        <testcase name="When I put a random number of each Fruit and Vegetable that has price per piece in the cart" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that I am on the Fruit and Vegetable category page" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="2.6702835">
         </testcase>
-        <testcase name="Then the mini-cart should show the correct total quantity of products" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart">
+        <testcase name="When I put a random number of each Fruit and Vegetable that has price per piece in the cart" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart" time="6.2822096">
+        </testcase>
+        <testcase name="Then the mini\-cart should show the correct total quantity of products" classname="viewing-shopping-cart;add-products-to-the-shopping-cart-and-view-quantity-in-mini-cart">
             <skipped message="">
             </skipped>
         </testcase>
