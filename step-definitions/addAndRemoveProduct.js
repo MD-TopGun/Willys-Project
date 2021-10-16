@@ -7,7 +7,7 @@ async function waitAWhile() {
 
 module.exports = function () {
 
-  this.Given(/^that I am in category Fryst fågelWhen I put a random number of each Fruit and Vegetable that has price per piece in the cart$/, async function () {
+  this.Given(/^that I am in category Fryst fågel$/, async function () {
     //once it exists grab the button and click on it
     await driver.wait(until.elementsLocated(by.css('a[href*="chark-och-fagel"]')), 10000);
     let openCategory = $('a[href*="chark-och-fagel"]');
