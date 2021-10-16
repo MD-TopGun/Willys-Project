@@ -2,7 +2,7 @@ const { $, $$, $$$ } = require('../helpers/element-selection.js');
 let slowDown = true;
 
 async function waitAWhile() {
-  await driver.sleep(slowDown ? 1000 : 0);
+  await driver.sleep(slowDown ? 3000 : 0);
 }
 //let itemsListLength;
 module.exports = function () {
