@@ -11,7 +11,7 @@ Daniel Aspegren             |   dykserv     |
 https://github.com/MD-TopGun/Willys-Project
 
 
-# Important Note! Due to Cloudfront rules implemented by Willys, the features should be run one by one otherwise Willys will block the ip address. 
+# Important Note! Due to Cloudfront rules implemented by Willys, we have implemented driver sleeps and commented some of the scenario outlines. 
 
 # Before Running the Test cases
 Use this script: npm install updated-selenium-cucumber-js
