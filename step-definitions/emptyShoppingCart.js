@@ -26,6 +26,7 @@ module.exports = function () {
   });
 
   this.When(/^I click on “Empty shopping cart” button$/, async function () {
+    driver.sleep(10000);
     await driver.wait(until.elementsLocated(by.css('[href*="varukorg"]')), 10000);
     let shoppingCart = await $('[href*="varukorg"]');
     await shoppingCart.click();

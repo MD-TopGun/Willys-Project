@@ -8,6 +8,7 @@ module.exports = function () {
 
   this.Given(/^that I am on "([^"]*)"$/, async function (url) {
     await helpers.loadPage(url);
+    driver.sleep(10000);
   });
 
 

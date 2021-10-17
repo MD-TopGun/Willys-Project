@@ -10,6 +10,7 @@ let productText;
 module.exports = function () {
 
   this.When(/^I regret the first product on the shopping cart$/, async function () {
+    driver.sleep(10000);
     let itemsList = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
     productListLength = itemsList.length;
     console.log('\nThe number of different products before deleting:\n', productListLength);
