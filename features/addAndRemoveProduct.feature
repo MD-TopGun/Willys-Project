@@ -15,9 +15,9 @@ Feature: Change the number of an item
         Then the quantity of the item should be <numberToIncreaseProduct>
         Examples:
             | numberToIncreaseProduct |
-            #          | 1                       |
+            | 1                       |
             | 3                       |
-    #| 8                       |
+            | 8                       |
     Scenario Outline: Decrease the quantity of an item by click on minus button
         Given that I am in category Fryst fågel
         When I choose Chicken Tom Yum Bits to buy
@@ -26,9 +26,9 @@ Feature: Change the number of an item
         Then the quantity of the item should be <difference>
         Examples:
             | numberOfProduct | numberToDecreaseProduct | difference |
-            #           | 2               | 2                       | 0          |
+            | 2               | 2                       | 0          |
             | 3               | 2                       | 1          |
-    # | 8               | 5                       | 3          |
+            | 8               | 5                       | 3          |
 
     Scenario Outline: Giv the quantity of an item by write and press enter
         Given that I am in category Fryst fågel
@@ -38,6 +38,6 @@ Feature: Change the number of an item
 
         Examples:
             | numberOfProduct |
-            #            | 1               |
+            | 1               |
             | 5               |
-# | 10              |
+            | 10              |
