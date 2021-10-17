@@ -31,6 +31,7 @@ module.exports = function () {
     let itemListLength = itemsList.length;
     console.log('\nThe number of different products after deleting:\n', itemListLength);
     expect(productListLength).to.equal(itemListLength + 1);
+    driver.sleep(2000);
     waitAWhile();
   });
 
