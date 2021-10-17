@@ -30,14 +30,14 @@ module.exports = function () {
   });
 
   this.When(/^I choose Chicken Tom Yum Bits to buy$/, async function () {
-    driver.sleep(5000);
+    await driver.sleep(5000);
     await driver.wait(until.elementsLocated(by.css('button[class*="LoadMore"]')), 10000);
     let loadMoreButton = $('button[class*="LoadMore"]');
     await loadMoreButton.click();
-    driver.sleep(300);
+    await driver.sleep(300);
     await loadMoreButton.click();
     //await driver.executeScript('window.scrollTo(0,0)');
-    driver.sleep(500);
+    await driver.sleep(500);
     await driver.wait(until.elementsLocated(by.css('a[href*="Chicken-Tom-Yum-Bits"]')), 10000);
     let product = await $('a[href*="Chicken-Tom-Yum-Bits"]');
     product.click();
@@ -66,7 +66,7 @@ module.exports = function () {
     let removeItem = await $('button[title="Minska antal"]');
     for (let i = 0; i < +numberOfProduct; i++) {
       await removeItem.click();
-      driver.sleep(300);
+      await driver.sleep(300);
     }
     await waitAWhile();
   });

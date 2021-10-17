@@ -10,7 +10,7 @@ let productText;
 module.exports = function () {
 
   this.When(/^I regret the first product on the shopping cart$/, async function () {
-    driver.sleep(10000);
+    await driver.sleep(10000);
     let itemsList = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
     productListLength = itemsList.length;
     console.log('\nThe number of different products before deleting:\n', productListLength);
@@ -22,7 +22,7 @@ module.exports = function () {
     let numberOfSameProduct = +valueAttr.split(' ')[0];
     for (let i = 0; i <= numberOfSameProduct; i++) {
       await removeItem.click();
-      driver.sleep(2000);
+      await driver.sleep(2000);
     }
     waitAWhile();
   });
@@ -32,7 +32,7 @@ module.exports = function () {
     let itemListLength = itemsList.length;
     console.log('\nThe number of different products after deleting:\n', itemListLength);
     expect(productListLength).to.equal(itemListLength + 1);
-    driver.sleep(2000);
+    await driver.sleep(2000);
     waitAWhile();
   });
 

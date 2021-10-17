@@ -16,8 +16,8 @@ Feature: Change the number of an item
         Examples:
             | numberToIncreaseProduct |
             | 1                       |
-            | 3                       |
-            | 8                       |
+    #          | 3                       |
+    #          | 8                       |
     Scenario Outline: Decrease the quantity of an item by click on minus button
         Given that I am in category Fryst fågel
         When I choose Chicken Tom Yum Bits to buy
@@ -27,8 +27,8 @@ Feature: Change the number of an item
         Examples:
             | numberOfProduct | numberToDecreaseProduct | difference |
             | 2               | 2                       | 0          |
-            | 3               | 2                       | 1          |
-            | 8               | 5                       | 3          |
+    #          | 3               | 2                       | 1          |
+    #           | 8               | 5                       | 3          |
 
     Scenario Outline: Giv the quantity of an item by write and press enter
         Given that I am in category Fryst fågel
@@ -38,6 +38,6 @@ Feature: Change the number of an item
 
         Examples:
             | numberOfProduct |
-            | 1               |
-            | 5               |
+            #           | 1               |
+            #           | 5               |
             | 10              |

@@ -4,7 +4,7 @@ module.exports = function () {
   let boughtProducts;
 
   this.Given(/^that I am on the Fruit and Vegetable category page$/, async function () {
-    driver.sleep(10000);
+    await driver.sleep(10000);
     // You could just do this:
     // await helpers.loadPage('https://www.willys.se/sortiment/frukt-och-gront/gronsaker');
     // But it is probably more realistic to think that the user

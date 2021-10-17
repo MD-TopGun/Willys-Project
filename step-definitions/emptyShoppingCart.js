@@ -26,7 +26,7 @@ module.exports = function () {
   });
 
   this.When(/^I click on “Empty shopping cart” button$/, async function () {
-    driver.sleep(10000);
+    await driver.sleep(50000);
     await driver.wait(until.elementsLocated(by.css('[href*="varukorg"]')), 10000);
     let shoppingCart = await $('[href*="varukorg"]');
     await shoppingCart.click();
@@ -37,7 +37,7 @@ module.exports = function () {
     await driver.wait(until.elementsLocated(by.css('button[data-testid="modal-confirm-button"]')), 10000);
     let emptyConfirmation = await $('button[data-testid="modal-confirm-button"]');
     emptyConfirmation.click();
-    driver.sleep(2000);
+    await driver.sleep(2000);
     let itemsListLength = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
     console.log('\nThe number of different products after deleting:\n', itemsListLength.length);
     waitAWhile();
