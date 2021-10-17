@@ -26,6 +26,7 @@ module.exports = function () {
     waitAWhile();
   });
   this.Then(/^the item should not be in the cart anymore$/, async function () {
+    driver.sleep(2000);
     await driver.wait(until.elementsLocated(by.css('[class^="ProductListItemstyles__StyledWrapper"]')), 10000);
     let itemsList = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
     let itemListLength = itemsList.length;
